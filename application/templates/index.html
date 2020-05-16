@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12 text-center">
+
+            {% if session['username'] %}
+                <h3>Let's get started.</h3>
+            {% else %}
+                <p>Already registered? <a href="{{url_for('login') }}">Login</a></p>
+            {% endif %}
+
+            <div style="text-align:left;">
+               
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

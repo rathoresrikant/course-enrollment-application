@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "files.associations": {
+    
+    },
+    "git.ignoreLimitWarning": true,
+    "[jsonc]": {
+    
+    },
+    "python.autoComplete.extraPaths": ["./path-to-your-code"]
+}
